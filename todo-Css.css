@@ -50,11 +50,12 @@ form{
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
+    padding: 20px;
 }
 div ul{
     margin-top: 50px;
     display: flex;
-    gap: 50px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 ul div{
@@ -81,6 +82,7 @@ ul div{
     border-radius: 3px;
     width: 80px;
     height: 20px;
+    margin-bottom: 10px;
 }
 .btn:hover{
     scale: 1.05;
