@@ -9,11 +9,11 @@ function addTask(event){
     listNode.innerText=task
     listNode.setAttribute('class','todo-item')
     const createButton=document.createElement('button')
-    createButton.innerText='Complete'
-    createButton.setAttribute('class','complete-btn')
+    createButton.innerText='Completed'
+    createButton.setAttribute('class','btn')
     const deleteButton=document.createElement('button')
     deleteButton.innerText='Delete'
-    deleteButton.setAttribute('class','trash-btn')
+    deleteButton.setAttribute('class','btn')
     //Push li and button inside DIV
     divNode.appendChild(listNode)
     divNode.appendChild(createButton)
